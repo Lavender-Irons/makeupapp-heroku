@@ -1,0 +1,32 @@
+
+
+body{
+	background-color: black;
+	font-color: white;
+}
+
+h3 {
+	color:white;
+}
+
+h4{
+	color:white;
+}
+
+tr{
+	color:white;
+}
+
+
+
+
+
+input[type=checkbox] {
+    margin-left: 60px;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    bottom: 1px;
+}
+    
+ 
