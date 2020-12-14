@@ -1,1 +1,1 @@
-web: java -war target/makeup-app.war
+web: java -jar target/makeup-app.jar

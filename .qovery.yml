@@ -1,0 +1,15 @@
+---
+application:
+  name: "makeupapp"
+  project: "makeupapp"
+  organization: "QoveryCommunity"
+databases:
+  - type: "POSTGRESQL"
+    name: "MakeupApp"
+    version: "12"
+routers:
+  - name: "main-makeupapp"
+    routes:
+      - application_name: "makeupapp"
+        paths:
+          - "/"
