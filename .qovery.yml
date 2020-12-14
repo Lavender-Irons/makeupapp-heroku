@@ -1,15 +1,15 @@
+---
 application:
-  name: makeupapp
-  project: makeupapp
-  cloud_region: aws/eu-west-3
-  publicly_accessible: true
+  name: "makeupapp"
+  project: "makeupapp"
+  organization: "QoveryCommunity"
 databases:
-- type: postgresql
-  version: "12.5"
-  name: MakeupApp
+- type: "POSTGRESQL"
+  name: "MakeupApp"
+  version: "12"
 routers:
-- name: main
+- name: "main-makeupapp"
   routes:
-  - application_name: makeupapp
+  - application_name: "makeupapp"
     paths:
-    - /*
+    - "/"
