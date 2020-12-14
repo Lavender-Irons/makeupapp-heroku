@@ -1,1 +1,1 @@
-web: java -jar target/makeup-app.jar
+web: java -jar target/test-classes/makeup-app.jar
