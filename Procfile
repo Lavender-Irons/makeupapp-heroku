@@ -1,1 +1,1 @@
-web: java -jar target/makeup-app.jar
+web: java $JAVA_OPTS -jar target/*.jar
