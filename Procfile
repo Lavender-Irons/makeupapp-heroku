@@ -1,1 +1,1 @@
-web: java -jar -Dserver.port-$PORT target/makeup-app.jar
+worker: java -jar target/*.jar
